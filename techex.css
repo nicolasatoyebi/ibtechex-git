@@ -9,6 +9,27 @@
     background-color: #fdfdfd;
 }
 
+@keyframes rotate {
+
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
 .nav-links:hover {
     border-bottom: .5px solid #FDB915;
 }
@@ -24,6 +45,10 @@
 .button:hover {
     color: #fdfdfd !important;
     background-color: #FDB915 !important;
+}
+
+.hero-image {
+    height: 340px;
 }
 
 .hero-detail {
@@ -117,19 +142,30 @@
     width: 100%;
 }
 
-.gold-img {
-    height: 10vh;
-    width: 20%;
-}
-
 .sponsor-text-big {
     color: #224093;
     font-size: 34px;
 }
 
+.sponsor-logos {
+    white-space: nowrap;
+}
+
 .sponsor-slide {
-    width: 1400px;
-    /* animation: slideLeft 10s infinite linear; */
+    display: inline-block;
+    animation: slideLeft 10s infinite linear;
+}
+
+.sponsor-slide img {
+    height: 80px;
+}
+
+.gold-img {
+
+}
+
+.margin-left {
+    margin-left: 50px;
 }
 
 
@@ -145,33 +181,3 @@
 
 
 
-
-
-@keyframes rotate {
-
-    from {
-        transform: rotate(0deg);
-    }
-    
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes slideLeft {
-    0% {
-        transform: translateX(1600px);
-    }
-
-    100% {
-        transform: translateX(0px);
-    }
-
-    100% {
-        transform: translateX(-1000px);
-    }
-
-    0% {
-        transform: translateX(1600px);
-    }
-}
