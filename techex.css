@@ -142,30 +142,31 @@
     width: 100%;
 }
 
+.sponsor-section {
+    width: 4000px;
+}
+
 .sponsor-text-big {
     color: #224093;
     font-size: 34px;
 }
 
 .sponsor-logos {
-    white-space: nowrap;
+    animation: slideLeft 17s infinite linear;
 }
 
 .sponsor-slide {
     display: inline-block;
-    animation: slideLeft 10s infinite linear;
+    margin-right: 40px;
+    /* animation: slideLeft 17s infinite linear; */
 }
 
 .sponsor-slide img {
     height: 80px;
 }
 
-.gold-img {
-
-}
-
-.margin-left {
-    margin-left: 50px;
+.logo-img {    
+    margin: 0 60px;
 }
 
 
