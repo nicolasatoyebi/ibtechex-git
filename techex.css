@@ -142,6 +142,23 @@
     width: 100%;
 }
 
+.ticketing {
+    width: 80%;
+}
+
+.tickets-title {
+    font-size: 80px;
+    color: #224093;
+}
+
+.ticket-image {
+    width: 50%;
+}
+
+.ticket-img {
+    height: 250px;
+}
+
 .sponsor-section {
     width: 4000px;
 }
@@ -169,7 +186,9 @@
     margin: 0 60px;
 }
 
-
+.prizes-section {
+    
+}
 
 
 
