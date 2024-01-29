@@ -5,7 +5,7 @@
 }
 
 .body {
-    font-family: Jost !important;
+    font-family: "jost" !important;
     background-color: #fdfdfd;
 }
 
@@ -47,6 +47,8 @@
     background-color: #FDB915 !important;
 }
 
+/*Hero section*/
+
 .hero-image {
     height: 340px;
 }
@@ -71,6 +73,8 @@
     text-align: center;
     border: 1px solid #224093;
 }
+
+/*Venue section*/
 
 .venue-details {
     background-image: linear-gradient(to right, rgb(211, 155, 0), 20%, rgb(54, 96, 197),rgb(54, 96, 197), rgb(54, 96, 197));
@@ -142,6 +146,8 @@
     width: 100%;
 }
 
+/*Ticket section*/
+
 .ticketing {
     width: 80%;
 }
@@ -159,13 +165,28 @@
     height: 250px;
 }
 
+.price {
+    font-family: "jost";
+    font-weight: 800;
+}
+
+.price-about {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/*Sponsor section*/
+
 .sponsor-section {
     width: 4000px;
+    font-family: "jost";
 }
 
 .sponsor-text-big {
     color: #224093;
-    font-size: 34px;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "jost";
 }
 
 .sponsor-logos {
@@ -186,12 +207,88 @@
     margin: 0 60px;
 }
 
+/*Prizes section*/
+
 .prizes-section {
-    
+    background-image: linear-gradient(to right top, rgb(19, 35, 81),85%, rgb(238, 99, 101));
+    height: 72vh;
+    margin-bottom: 90px;
 }
 
+.prize-text {
+    width: 30%;
+}
 
+.prize-text-big {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "jost";
+    margin-bottom: 0 !important;
+}
 
+.prize-text-small {
+    font-size: 14px;
+    letter-spacing: 1.8px;
+    line-height: 1.5;
+    padding: 0 0 20px 0;
+}
+
+.price-images {
+    width: 70%;
+    transition: all 2s;
+}
+
+.prize {
+    height: 150px;
+}
+
+.prize-1 {
+    align-self: center;
+    transition: all .8s;
+}
+
+.prize-1:hover {
+    transform: rotate(22deg);
+}
+
+.prize-2 {
+    height: 90%;
+    width: 700px;
+}
+
+.prize-3 {
+    transition: all .8s;
+}
+
+.prize-3:hover {
+    transform: rotate(22deg);
+}
+
+.div-margins {
+    margin-bottom: 200px;
+}
+
+.footer-section {
+    background-color: #132351;
+}
+
+.footer {
+    padding: 0 150px;
+}
+
+.social-icons img {
+    height: 25px;
+    margin-left: 15px;   
+}
+
+.footer-link {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.footer-links:link {
+    text-decoration: none;
+}
 
 
 
