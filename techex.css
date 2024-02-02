@@ -30,6 +30,16 @@
     }
 }
 
+.secondary-nav{
+    display: none;
+}
+
+.main-container {
+    width: 95%;
+    overflow: hidden;
+    background-color: #F5F5F5;
+}
+
 .nav-links:hover {
     border-bottom: .5px solid #FDB915;
 }
@@ -57,7 +67,12 @@
     gap: 80px;
 }
 
+.detail-line {
+    width: 280px;
+}
+
 .star {
+    height: 64px;
     animation: rotate 3s infinite linear;
 }
 
@@ -150,6 +165,7 @@
 
 .ticketing {
     width: 80%;
+    transition: all .8s;
 }
 
 .tickets-title {
@@ -165,6 +181,10 @@
     height: 250px;
 }
 
+.pricing-cards {
+    width: 100%;
+}
+
 .price {
     font-family: "jost";
     font-weight: 800;
@@ -173,6 +193,36 @@
 .price-about {
     font-size: 12px;
     font-weight: 500;
+}
+
+.card-1 {
+    width: 52rem;
+    height: 80vh;
+    background-color: white;
+    transition: all .8s;
+}
+
+.card-1:hover {
+    background-color: #32971D;
+}
+
+.card-2 {
+    width: 52rem; 
+    height: 85vh; 
+    background-color: #FFCD55; 
+    color: #224093;
+    transition: all .8s;
+}
+
+.card-3 {
+    width: 52rem; 
+    height: 80vh; 
+    background-color: white;
+    transition: all .8s;
+}
+
+.card-3:hover {
+    background-color: #00208A;
 }
 
 /*Sponsor section*/
@@ -291,7 +341,113 @@
 }
 
 
+@media screen and (max-width:600px) {
+    .main-container {
+        width: 100%;
+    }
 
+    .secondary-nav{
+        display: block;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .hero-image {
+        height: 140px;
+    }
+
+    .hero-detail {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .detail-line {
+        width: 200px;
+    }
+
+    .cta {
+        flex-direction: column;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .venue-info {
+        padding: 0 10px;
+    } 
+
+    .venue-name {
+        font-size: 18px;
+        margin: 0 auto;
+        margin-left: 40px;
+    }
+
+    .speaker-grp {
+        flex-direction: column;
+    }
+
+    .speaker-image-1 {
+        width: 300px;
+        margin-left: 98px;
+    }
+
+    .tickets-section {
+        text-align: center;
+    }
+
+    .pricing-cards {
+        flex-direction: column;
+    }
+
+    .card-1 {
+        padding: 0 100px;
+    }
+
+    .prizes-section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .prize-text-big {
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 0 !important;
+    }
+    
+    .prize-text-small {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .prize-1 {
+        display: none;
+
+    }
+
+    .prize-3 {
+        display: none;
+    }
+
+    .prize-2 {
+        display: none;
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .social {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
 
 
 
